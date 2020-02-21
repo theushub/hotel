@@ -7,7 +7,7 @@ header img {
 }
 header {
   text-align: center;
-  background-image: url("../img/paisagem.jpg.jpg");
+  background-image: url("../img/hotel5.jpg");
   background-position: 0 -150px;
   background-size: 100%;
   transition: ease 2s;
@@ -22,4 +22,35 @@ footer .card-body {
   background-color: black;
   color: white;
   text-align: center;
+}
+#home1 {
+  background-color: rgba(255, 255, 255, 65%);
+  padding: 20px;
+  margin-bottom: 100px;
+  text-align: justify;
+}
+#home2 {
+  background-color: rgba(255, 255, 255, 65%);
+  padding: 20px;
+  text-align: justify;
+}
+#imgHome {
+  text-align: center;
+}
+#imgHome img {
+  width: 500px;
+  height: 400px;
+  margin: 0 20px;
+  transition: ease 1s;
+  opacity: 60%;
+}
+#imgHome img:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+#imglazer img{
+  width: 235px;
+  height: 200px;
+  margin: 10px;
+  cursor: pointer;
 }
